@@ -1,0 +1,30 @@
+﻿<Page x:Class="Restaurant.Pages.Menu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Restaurant.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="700"
+      Title="Menu">
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+   
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas Background="White" Grid.ColumnSpan="2"/>
+        <StackPanel>
+        <Button  Content="Voorgerecht" Margin="10" Height="50" VerticalAlignment="Top" HorizontalAlignment="Center" Width="100" Click="Button_Click"/>
+        <Button  Content="Hoofdgerecht" Margin="10" Height="50" VerticalAlignment="Top" HorizontalAlignment="Center" Width="100" Click="Button_Click_1"/>
+        <Button  Content="Desserts" Margin="10" Height="50" VerticalAlignment="Top" HorizontalAlignment="Center" Width="100"/>
+        <Button  Content="Drank" Margin="10" Height="50" VerticalAlignment="Top" HorizontalAlignment="Center" Width="100"/>
+        <Button  Content="Cocktails" Margin="10" Height="50" VerticalAlignment="Top" HorizontalAlignment="Center" Width="100"/>
+        
+        </StackPanel>
+        <Frame Grid.Column="1" Name="Keuzes"/>
+        <Frame Grid.Column="1" Name="hoofd"/>
+    </Grid>
+</Page>

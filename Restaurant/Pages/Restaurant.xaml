@@ -1,0 +1,69 @@
+﻿<Page x:Class="Restaurant.Pages.Restaurant"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Restaurant.Pages"
+      mc:Ignorable="d"
+      Title="Restaurant" Height="600" Width="700">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="178*"/>
+
+            <ColumnDefinition Width="169*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="115,36,0,0" Height="21" Click="Default"/>
+        <Button Content ="2" HorizontalAlignment="Left" Margin="81,73,0,0" VerticalAlignment="Top" Width="75" Height="19" Click="Default"/>
+        <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="171,73,0,0" Height="19" Click="Default"/>
+        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="81,112,0,0" Height="19" Click="Default"/>
+        <Button Content="10" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="171,261,0,0" Height="19" Click="Default"/>
+        <Button Content= "11" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="26,294,0,0" Height="20"  Click="Default"/>
+        <Button Content="13" HorizontalAlignment="Left" VerticalAlignment="Top" Width="48" Margin="53,228,0,0" Height="19" Click="Default"/>
+        <Button Content="12" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46" Margin="0,261,0,0" Height="19" Click="Default"/>
+        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="81,185,0,0" Height="19" Click="Default"/>
+        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="171,185,0,0" Height="19" Click="Default"/>
+        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="171,112,0,0" Height="19" Click="Default"/>
+        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="81,151,0,0" Height="19" Click="Default"/>
+        <Button Content="16" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="15,353,0,0" Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="15" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="268,353,0,0" Height="19" Click="Default"/>
+        <Button Content="14" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="171,353,0,0" Height="19" Click="Default"/>
+
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="82,213,0,0"  Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="334,97,0,0" Grid.ColumnSpan="2" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="334,170,0,0" Grid.ColumnSpan="2" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="334,213,0,0" Grid.ColumnSpan="2" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="334,261,0,0" Grid.ColumnSpan="2" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="253,213,0,0" Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="253,279,0,0" Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="212,353,0,0" Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="119,353,0,0" Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="334,38,0,0" Grid.ColumnSpan="2" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="253,170,0,0" Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="157,170,0,0" Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="82,170,0,0" Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="157,213,0,0" VerticalAlignment="Top" Width="75"  Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="253,58,0,0" Grid.Column="1" Height="19" Click="Default"/>
+
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="253,102,0,0" Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="157,97,0,0" Grid.Column="1" Height="19" Click="Default"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="82,97,0,0" Grid.Column="1" Height="19" Click="Default"/>
+        <Rectangle HorizontalAlignment="Left" Height="121" Stroke="Black" VerticalAlignment="Top" Width="17" Margin="251,10,0,0"/>
+        <Rectangle HorizontalAlignment="Left" Height="43" Stroke="Black" VerticalAlignment="Top" Width="17" Margin="251,170,0,0"/>
+        <Rectangle HorizontalAlignment="Left" Height="263" Stroke="Black" VerticalAlignment="Top" Width="17" Margin="133,95,0,0" RenderTransformOrigin="0.56,0.473">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.298"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="121" Stroke="Black" VerticalAlignment="Top" Width="18" Margin="311,10,0,0"/>
+        <Rectangle HorizontalAlignment="Left" Height="153" Stroke="Black" VerticalAlignment="Top" Width="18" Margin="311,161,0,0"/>
+        <Rectangle HorizontalAlignment="Left" Height="16" Stroke="Black" VerticalAlignment="Top" Width="108" Margin="329,298,0,0" Grid.ColumnSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="16" Stroke="Black" VerticalAlignment="Top" Width="207" Margin="131,298,-0.4,0" Grid.Column="1"/>
+
+    </Grid>
+</Page>
