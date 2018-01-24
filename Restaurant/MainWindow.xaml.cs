@@ -31,6 +31,7 @@ namespace Restaurant
         public void GoToRestaurant()
         {
             RestaurantFrame.Navigate(new Pages.Restaurant());
+
         }
         public void GoToMenu()
         {
